@@ -12,14 +12,14 @@ function ViewByBrands() {
       <h1 className='text-xl font-semibold my-3 mx-3 md:mx-0'>
         VIEW BY BRANDS
       </h1>
-      <div className='flex flex-col justify-between items-center space-y-3 md:flex-row md:space-y-0'>
-        <AppleIcon className='h-24 w-24' />
-        <SamsungIcon className='h-24 w-24' />
-        <HuaweiIcon className='h-24 w-24' />
-        <LgIcon className='h-24 w-24 hidden md:block' />
-        <NokiaIcon className='h-24 w-24 hidden md:block' />
-        <AsusIcon className='h-24 w-24 hidden md:block' />
-        <SonyIcon className='h-24 w-24 hidden md:block' />
+      <div className='flex justify-between items-center space-y-3 mx-3 md:flex-row md:space-y-0 md:mx-0'>
+        <AppleIcon className='h-14 w-14 md:h-24 md:w-24' />
+        <SamsungIcon className='h-14 w-14 md:h-24 md:w-24' />
+        <HuaweiIcon className='h-14 w-14 md:h-24 md:w-24' />
+        <LgIcon className='md:h-24 md:w-24 hidden md:block' />
+        <NokiaIcon className='md:h-24 md:w-24 hidden md:block' />
+        <AsusIcon className='md:h-24 md:w-24 hidden md:block' />
+        <SonyIcon className='md:h-24 md:w-24 hidden md:block' />
         <span className='text-red-600 py-4 md:py-0 cursor-pointer'>
           View All
         </span>

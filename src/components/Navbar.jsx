@@ -34,7 +34,7 @@ function Navbar() {
             type='text'
             placeholder='Search product'
             aria-label='Search product'
-            className='px-3 py-2 font-semibold text-white placeholder-gray-400 rounded-2xl border-0 ring-2 ring-gray-800 focus:ring-2 bg-gray-900 focus:border-0'
+            className='px-3 py-2 font-semibold text-white placeholder-gray-400 rounded-2xl border-0 ring-2 ring-gray-800 focus:ring-2 bg-black focus:border-0'
           />
         </div>
         <div>

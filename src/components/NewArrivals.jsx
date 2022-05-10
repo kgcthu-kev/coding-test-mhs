@@ -9,7 +9,7 @@ function NewArrivals() {
         <h2 className='text-xl font-semibold'>New Arrivals</h2>
         <span className='text-gray-500'>View more</span>
       </div>
-      <div className='flex flex-col space-y-2 md:flex-row md:space-x-3 md:space-y-0'>
+      <div className='grid grid-cols-2 gap-2 md:flex md:flex-row md:space-x-3 md:space-y-0'>
         {items.map((item) => (
           <SingleItem
             key={item.id}

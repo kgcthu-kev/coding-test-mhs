@@ -2,7 +2,7 @@ import { HeartIcon } from '@heroicons/react/solid'
 
 function PromotionSingleItem({ name, originalPrice, discountedPrice, image }) {
   return (
-    <div className='flex flex-col space-y-1 relative border-3 mx-3 md:mx-0'>
+    <div className='flex flex-col space-y-1 relative border-3 mx-3 md:mx-0 cursor-pointer'>
       <div className='border-2 rounded-full border-black bg-black absolute h-5 w-5 right-2 top-2'>
         <HeartIcon className='text-white' />
       </div>
