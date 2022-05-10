@@ -1,32 +1,33 @@
-import Ads from './components/Ads'
-import Buy1get1 from './components/Buy1get1'
-import Categories from './components/Categories'
-import Footer from './components/Footer'
-import Laptop from './components/Laptop'
+// components
 import Navbar from './components/Navbar'
-import NewArrivals from './components/NewArrivals'
-import Phone from './components/Phone'
-import Promotion from './components/Promotion'
-import Tablet from './components/Tablet'
+import Categories from './components/Categories'
+import Ads from './components/Ads'
 import ViewByBrands from './components/ViewByBrands'
+import Footer from './components/Footer'
+import ItemList from './components/ItemList'
+
+// icons
+import phoneIcon from './icons/CategoryIcons/Asset42.png'
+import laptopIcon from './icons/CategoryIcons/Asset43.png'
+import tabletIcon from './icons/CategoryIcons/Asset45.png'
 
 function App() {
   return (
     <>
       <Navbar />
       <Categories />
-      <Buy1get1 />
-      <Promotion />
+      <ItemList title='buy 1 get 1' bg />
+      <ItemList title='promotion' />
       <div className='w-full h-1 bg-gray-200'></div>
-      <NewArrivals />
+      <ItemList title='new arrivals' />
       <Ads />
       <ViewByBrands />
       <div className='w-full h-1 bg-gray-200'></div>
-      <Phone />
+      <ItemList title='phone' icon={phoneIcon} />
       <div className='w-full h-1 bg-gray-200'></div>
-      <Laptop />
+      <ItemList title='laptop' icon={laptopIcon} />
       <div className='w-full h-1 bg-gray-200'></div>
-      <Tablet />
+      <ItemList title='tablet' icon={tabletIcon} />
       <Footer />
     </>
   )
